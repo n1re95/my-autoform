@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { Button } from './components/ui/button'
+import { schema } from './schema'
+import { MyAutoForm } from './components/my-auto-form';
+
 </script>
 
 <template>
   <div class="app-container">
     <div class="form-container">
-      <Button>testShit</Button>
+      <MyAutoForm>yooo</MyAutoForm>
     </div>
   </div>
 </template>
