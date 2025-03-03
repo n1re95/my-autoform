@@ -17,6 +17,7 @@ import { Button } from './components/ui/button'
   height: 100vh;
 }
 .form-container {
+  padding: 24px 0;
   width: 500px;
   margin: auto;
 }
