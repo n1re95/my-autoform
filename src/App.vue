@@ -24,7 +24,7 @@ import { URLS } from '@/constants';
 .app-container {
   padding: 24px 0;
   gap: 12px;
-  background-color: gray;
+  background-color: #9f8e8e;
   width: 100%;
   height: 100vh;
   display: flex;
