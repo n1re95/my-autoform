@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { MyAutoForm } from '@/components/my-auto-form'
-import { schema } from '@/pages/my-form/schema';
 </script>
 
 <template>

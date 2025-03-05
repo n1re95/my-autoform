@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { toast } from '@/components/ui/toast'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'
+import { Toaster } from '@/components/ui/toast'
 import { h } from 'vue'
 import * as z from 'zod'
 
@@ -24,6 +25,7 @@ function onSubmit(values: Record<string, any>) {
 </script>
 
 <template>
+  <Toaster />
   <AutoForm
     class="w-2/3 space-y-6"
     :schema="schema"
